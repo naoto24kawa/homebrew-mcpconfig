@@ -2,7 +2,6 @@ class Mcpconfig < Formula
   desc "MCP(Model Context Protocol)設定ファイルを効率的に管理するCLIツール"
   homepage "https://github.com/naoto24kawa/mcpconfig"
   license "MIT"
-  version "0.2.2"
 
   on_macos do
     if Hardware::CPU.intel?
